@@ -10,7 +10,7 @@ function TitleContent() {
           🗓<span className="title_main-title_strong">길드구직리스트</span>
         </h2>
         <Link to="/list" className="view-more">
-          전체보기<i class="ri-arrow-right-circle-fill"></i>
+          전체보기<i className="ri-arrow-right-circle-fill"></i>
         </Link>
       </div>
       <div className="title_box">

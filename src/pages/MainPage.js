@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import '../css/mainContainer.css';
 
-function MainContainer() {
+function MainPage() {
   return (
     <div className="mainContainer">
       <TitleContent></TitleContent>
@@ -25,4 +25,4 @@ function MainContainer() {
     </div>
   );
 }
-export default MainContainer;
+export default MainPage;

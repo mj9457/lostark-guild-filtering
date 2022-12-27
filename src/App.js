@@ -6,8 +6,9 @@ import 'remixicon/fonts/remixicon.css';
 
 import { Routes, Route } from 'react-router-dom';
 
-import MainContainer from './pages/MainContainer';
+import MainPage from './pages/MainPage';
 import NavbarPages from './components/Navbar';
+import GuildList from './pages/GuildList';
 
 function App() {
   return (
@@ -16,11 +17,11 @@ function App() {
 
       <Routes>
         {/* main page */}
-        <Route path="/" element={<MainContainer />} />
-        <Route path="/main" element={<MainContainer />} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/main" element={<MainPage />} />
 
         {/* list page */}
-        <Route path="/list" element={<div>길드구직리스트</div>} />
+        <Route path="/list" element={<GuildList />} />
 
         {/* form page */}
         <Route path="/form" element={<div>길드구인신청폼</div>} />

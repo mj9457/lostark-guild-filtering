@@ -16,7 +16,7 @@ function NavbarPages() {
       >
         <Container>
           <Navbar.Brand href="main" style={{ padding: '0' }}>
-            <i class="ri-question-mark ri-2x"></i>
+            <i className="ri-question-mark ri-2x"></i>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,10 +26,10 @@ function NavbarPages() {
             </Nav>
             <Nav>
               <Nav.Link href="https://open.kakao.com/o/sAJp6DVe">
-                <i class="ri-kakao-talk-fill ri-2x"></i>
+                <i className="ri-kakao-talk-fill ri-2x"></i>
               </Nav.Link>
               <Nav.Link href="https://github.com/mj9457/lostark-guild-filtering">
-                <i class="ri-github-fill ri-2x"></i>
+                <i className="ri-github-fill ri-2x"></i>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
