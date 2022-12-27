@@ -1,8 +1,8 @@
-@import url('./font/Noto_Sans_KR/NotoSansKR-Regular.otf');
+@import url("./css/font.css");
 
 .App {
   text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto_Sans_KR";
 }
 
 .App-logo {

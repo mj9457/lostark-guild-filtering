@@ -6,6 +6,7 @@ import 'remixicon/fonts/remixicon.css';
 
 import { Routes, Route } from 'react-router-dom';
 
+import MainContainer from './pages/MainContainer';
 import NavbarPages from './components/Navbar';
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
 
       <Routes>
         {/* main page */}
-        <Route path="/" element={<div>메인페이지</div>} />
-        <Route path="/main" element={<div>메인페이지</div>} />
+        <Route path="/" element={<MainContainer />} />
+        <Route path="/main" element={<MainContainer />} />
 
         {/* list page */}
         <Route path="/list" element={<div>길드구직리스트</div>} />
