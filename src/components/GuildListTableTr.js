@@ -1,5 +1,4 @@
 /* eslint-disable */
-import FilterKinds from './FilterKinds';
 import filterStyleData from '../utils/filterStyleData';
 import guildData from '../utils/guildData';
 
